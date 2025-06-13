@@ -1,0 +1,27 @@
+Metadata-Version: 2.4
+Name: ultrasegmentator
+Version: 0.1.0
+Author: weki
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: GPU :: NVIDIA CUDA :: 12.1+
+Requires-Python: ==3.10.*
+Requires-Dist: torch==2.6.*
+Requires-Dist: numpy==2.1.*
+Requires-Dist: cuda-python>=12.1.0
+Requires-Dist: tqdm
+Requires-Dist: acvl_utils
+Requires-Dist: batchgenerators
+Requires-Dist: nibabel
+Requires-Dist: dynamic_network_architectures
+Requires-Dist: batchgeneratorsv2
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Provides-Extra: cuda
+Requires-Dist: nvidia-cudnn-cu12==8.9.*; extra == "cuda"
+Dynamic: author
+Dynamic: classifier
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python

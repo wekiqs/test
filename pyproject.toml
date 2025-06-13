@@ -3,6 +3,9 @@ requires = [
     "setuptools>=61.0",
     "wheel",
     "torch==2.6.*",
-    "nvidia-cuda-cupti-cu12==12.1.*"
+    "nvidia-cuda-cupti-cu12==12.1.*",
+    "tqdm",
+    "acvl_utils",
+    "batchgenerators"
 ]
 build-backend = "setuptools.build_meta"

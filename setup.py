@@ -10,6 +10,14 @@ setup(
         "torch==2.6.*",  # 限定torch 2.6系列
         "numpy==2.1.*",  # 限定numpy 2.1系列
         "cuda-python>=12.1.0",  # CUDA Python绑定
+        "tqdm",
+        "acvl_utils",
+        "batchgenerators",
+        "nibabel",
+        "dynamic_network_architectures",
+        "batchgeneratorsv2",
+        "matplotlib",
+        "seaborn"
     ],
     extras_require={
         "cuda": ["nvidia-cudnn-cu12==8.9.*"]  # CUDA 12相关依赖

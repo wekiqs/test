@@ -1,2 +1,5 @@
 torch==2.6.0+cu121
 numpy==2.1.0
+tqdm
+acvl_utils
+batchgenerators
